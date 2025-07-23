@@ -1,0 +1,16 @@
+[project]
+name = "iceberg-log-analytics"
+version = "0.1.0"
+description = "Scalable log analytics pipeline using Apache Spark, Iceberg, and S3. Transforms raw web server logs into query-efficient Iceberg tables and computes daily and weekly engagement insights."
+authors = [
+    {name = "Bhasker Goel",email = "bhasker2000goel@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
